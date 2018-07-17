@@ -1,33 +1,37 @@
-.container {
-	position: relative;
-	text-align: center;
+body, html {
+	height: 100%;
+	margin: 0;
 }
 
-.placeholderImage {
-	background-image: url("https://image.ibb.co/kARM1y/placeholder_Image.jpg");
-	width: 100%;
-	height: 900px;
+.background {
+	background-image: url("https://image.ibb.co/itnZ6y/code_img.png");
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
 }
 
 .placeholderText {
-	width: 50%;
-	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 35%;
 	text-align: center;
-	padding-top: 425px;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2 {
 	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-size: 40px;
-	text-shadow: 1px 1px 5px #000
+	text-transform: uppercase;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 4px 4px black;
 }
 
 p, a {
 	color: white;
-	font-family: 'Raleway', sans-serif;
-}
-
-a {
+	text-shadow: 1px 1px black;
 	text-decoration: none;
 }
