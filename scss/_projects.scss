@@ -1,0 +1,48 @@
+#projects {
+	background-color: lighten($grey, 55%);
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.projects-title {
+	color: $pink;
+	margin-bottom: 25px;
+	padding-top: 58px;
+}
+
+.card-title {
+	padding-top: 25px;
+}
+
+.card-body {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.list-group-header {
+	background-color: $pink;
+	color: white;
+}
+
+.card {
+	border: 1px solid $pink;
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.card-title {
+	color: $pink;
+}
+
+.modal-container {
+	text-align: left;
+	line-height: normal;
+}
+
+.modal-biz {
+	color: $pink;
+}
+
+.modal-header img {
+	box-shadow: 1px 1px 5px black;
+}

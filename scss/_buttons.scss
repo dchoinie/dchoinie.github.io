@@ -1,0 +1,46 @@
+.hero-button {
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 8px;
+}
+
+.hero-button:hover {
+	background-color: $pink;
+	color: white;
+	text-decoration: none;
+	border: none;
+}
+
+.btn-projects {
+	background-color: $pink;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 8px;
+}
+
+.btn-projects:hover {
+	background-color: darken($pink, 10%);
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 8px;
+}
+
+.btn-projects-close {
+	background-color: $grey;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 8px;
+}
+
+.btn-projects-close:hover {
+	background-color: darken($grey, 10%);
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 8px;
+}

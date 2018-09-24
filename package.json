@@ -1,0 +1,17 @@
+{
+  "name": "real-portfolio-site",
+  "version": "1.0.0",
+  "description": "Dan Choiniere Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Choiniere",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.0.3"
+  }
+}

@@ -1,0 +1,53 @@
+#about {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.skills-icon {
+    color: $pink;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-title {
+    color: $pink;
+    margin-bottom: 25px;
+    padding-top: 58px;
+}
+
+.skills-title {
+    color: $grey;
+    text-transform: uppercase;
+}
+
+.progress-container {
+    width: 50%;
+}
+
+.progress {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    background-color: $pink;
+}
+
+.bg-grey {
+    background-color: $grey;
+}
+
+#about-img {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid $grey;
+}
+
+#about-dan {
+    color: $pink;
+    margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+$pink: #0D471F;
+$grey: #637074;
+
+$font-1: 'Baloo Tammudu', cursive;
+$font-2: 'Questrial', sans-serif;
+$font-3: 'Permanent Marker', cursive;
+
+* *:after *:before {
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-1;
+}
+
+p, ul, li, a, form {
+	font-family: $font-2;
+	color: $grey;
+}
+
+.active {
+	background-color: black;
+}
+
+img { 
+-ms-interpolation-mode: bicubic; 
+}
+
+.card-img-top {
+	-ms-interpolation-mode: bicubic;
+}
