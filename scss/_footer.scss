@@ -51,6 +51,12 @@
 	margin-top: 75px;
 }
 
+@media screen and (max-width: 582px) {
+	.socials {
+		position: relative;
+	}
+}
+
 .socials i {
 	color: darken($pink, 20%);
 	background-color: $grey;
@@ -62,4 +68,10 @@
 
 .socials i:hover {
 	color: $pink;
+}
+
+@media screen and (max-width: 370px) {
+	.socials i {
+		padding: 5px;
+	}
 }

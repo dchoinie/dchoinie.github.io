@@ -222,6 +222,9 @@ img {
   transform: translate(-50%, -50%);
   margin-top: 75px; }
 
+@media screen and (max-width: 582px) {
+  .socials {
+    position: relative; } }
 .socials i {
   color: black;
   background-color: #637074;
@@ -233,6 +236,9 @@ img {
 .socials i:hover {
   color: #0D471F; }
 
+@media screen and (max-width: 370px) {
+  .socials i {
+    padding: 5px; } }
 .resume {
   margin-top: 0;
   padding-top: 25px;
