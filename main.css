@@ -1,6 +1,9 @@
 * *:after *:before {
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body, html {
   height: 100%;
   margin: 0;

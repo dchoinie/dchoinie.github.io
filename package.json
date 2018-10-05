@@ -8,7 +8,10 @@
   },
   "author": "Dan Choiniere",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "jquery-smooth-scroll": "^2.2.0",
+    "jump.js": "^1.0.2"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-typescript": "^5.0.0-alpha.3",
