@@ -1,15 +1,12 @@
-// Document ready shorthand statement
-    $(function() {
-      // Select link by id and add click event
-      $('#down1').click(function() {
+$(document).ready(function() {
+  var scrollLink = $('.scroll');
 
-        // Animate Scroll to #bottom
-        $('html,body').animate({
-          scrollTop: $("#about").offset().top }, // Tell it to scroll to the top #bottom
-          1000 // How long scroll will take in milliseconds
-        );
+  //smooth scrolling
+  scrollLink.click(function(e) {
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1000)
+  })
 
-        // Prevent default behavior of link
-        return false;
-      });
-    });
+})
