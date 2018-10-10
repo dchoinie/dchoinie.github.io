@@ -4,16 +4,12 @@
 	<title>Dan Choiniere Portfolio Site</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css3-animate-it-master/css/animations.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Permanent+Marker|Questrial" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://unpkg.com/scrollreveal"></script>
 	<link rel="stylesheet" type="text/css" href="main.css" />
-	<!-- jQuery -->	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+	
 </head>
 <body>
 
@@ -44,10 +40,10 @@
 
 <!-- Hero Image -->
 <div class="hero" id="top">
-	<div class="hero-content animatedParent">
-		<h1 class="animated fadeInLeft">Hello, I'm <span style="color: #0D471F">Dan Choiniere</span></h1>
-		<h1 class="animated fadeInRight">A Front End Developer</h1>
-		<div class="animated rotateIn"><a href="#projects" class="hero-button">View My Work</a></div>
+	<div class="hero-content">
+		<h1>Hello, I'm <span style="color: #0D471F">Dan Choiniere</span></h1>
+		<h1>A Front End Developer</h1>
+		<a href="#projects" class="hero-button">View My Work</a>
 	</div>
 </div>
 
@@ -409,7 +405,45 @@
 </div>
 
 <!-- Socials -->
-
-<script src="css3-animate-it-master/js/css3-animate-it.js"></script>
+<!-- jQuery -->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script>
+	window.sr = ScrollReveal();
+	sr.reveal('.navbar', {
+		duration: 1000,
+		origin: 'top',
+		distance: '100px'
+	});
+	sr.reveal('.hero-content h1', {
+		duration: 2000,
+		origin: 'left',
+		distance: '500px'
+	});
+	sr.reveal('.hero-button', {
+		duration: 2000,
+		origin: 'right',
+		delay: 1000
+	});
+</script>
+<script>
+	$(function() {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+</script>
 </body>
 </html>
